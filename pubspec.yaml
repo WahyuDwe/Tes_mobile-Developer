@@ -1,0 +1,41 @@
+name: test_arutalalab
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/splash_screen.jpg
+    - assets/image/book_service.png
+    - assets/image/book_test_drive.png
+    - assets/image/calculator.png
+    - assets/image/catalog.png
+    - assets/image/claim_insurance.png
+    - assets/image/dealer_location.png
+    - assets/image/lucky_draw.png
+    - assets/image/service_berkala.png
+    - assets/image/THS.png
+    - assets/image/tips_and_trick.png
+    - assets/image/trade_in.png
+
